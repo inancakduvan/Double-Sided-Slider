@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0 20%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #222;
+}
+
+h2 {
+    font-size: 2.2em;
+    margin: 10px 0;
+    color: #5694f7;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.container {
+    width: 100%;
+    display: table;
+}
+
+.row {
+    display: table-row;
+}
+
+.section {
+    display: table-cell;
+    width: 50%;
+    height: 100vh;
+    background: #eee;
+    vertical-align: middle;
+    text-align: justify;
+}
+
+.flexBox {
+    position: relative;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flexBox::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+.flexBox .imageBox {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.flexBox .imageBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.flexBox .contentBox {
+    flex: 0 0 auto;
+    text-align: justify;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* BUTTONS */
+
+.buttonContainer {
+    width: 60%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.buttonContainer button {
+    width: 25%;
+    outline: none;
+    background: transparent;
+    border: 1px solid #5694f7;
+    border-radius: 8px;
+    padding: 10px 18px;
+    margin-right: 8px;
+    color: #5694f7;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.buttonContainer button:hover {
+    background: #5694f7;
+    color: #fff;
+}
