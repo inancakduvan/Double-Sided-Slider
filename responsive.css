@@ -44,6 +44,17 @@
         height: auto;
     }
 
+    #flexBoxContent {
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    height: 200px;
+    }
+
+    .flexBox .contentBox {
+        height: 100%;
+        overflow-y: scroll;
+    }
+
 }
                         
  @media screen and (max-width:991px) and (min-width:768px) { 
@@ -88,6 +99,17 @@
     
     #contentSection {
         height: auto;
+    }
+
+    #flexBoxContent {
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    height: 200px;
+    }
+
+    .flexBox .contentBox {
+        height: 100%;
+        overflow-y: scroll;
     }
                         
 }
@@ -136,6 +158,17 @@
     
     #contentSection {
         height: auto;
+    }
+
+    #flexBoxContent {
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    height: 200px;
+    }
+
+    .flexBox .contentBox {
+        height: 100%;
+        overflow-y: scroll;
     }
                
 }

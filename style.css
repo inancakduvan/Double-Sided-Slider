@@ -53,9 +53,9 @@ p {
     margin: 0 auto;
 }
 
-.flexBox::-webkit-scrollbar { 
+ .flexBox::-webkit-scrollbar { 
     display: none; 
-}
+} 
 
 
 .flexBox .imageBox {
