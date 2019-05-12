@@ -22,7 +22,11 @@ function a(event) {
   // MOBILE SCROLL
 
   if (window.innerWidth <= 1024) {
-    console.log(contentPositionMobile)
+    document.getElementById("flexBoxImage").scrollTo({
+      top: 0,
+      left: imagePosition,
+      behavior: 'smooth'
+    });
     document.getElementById("flexBoxContent").scrollTo({
       top: contentPositionMobile,
       left: 0,
