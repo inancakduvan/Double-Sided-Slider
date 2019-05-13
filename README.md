@@ -58,7 +58,7 @@ No setup is required. Easy to create and use.
   
   <span><</span>body>
   
-    <span><</span>div class="double-sided-slider">
+    <span><</span>div id="double-sided-slider">
     
       <span><</span>div class="sliderHeading"> Heading 1 <span><</span>/div>
       <span><</span>div class="sliderContent"> Content 1 <span><</span>/div>
