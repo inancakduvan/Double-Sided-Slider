@@ -31,10 +31,10 @@ No setup is required. Easy to create and use.
 
 **Firstly, Create a Div with id of "double-sided-slider" wherever you want and inside it:
 
-1) You should use 3 different classes when you create your slider: <br/>
-2) class="sliderHeading" will dedicate the heading of your content. <br/>
-3) class="sliderContent" will dedicate your content. <br/>
-4) class="sliderImage" will dedicate the image of your slide. You should give "data-image" as an attribute in this div for stating href of your image. 
+----> You should use 3 different classes when you create your slider: <br/>
+1) class="sliderHeading" will dedicate the heading of your content. <br/>
+2) class="sliderContent" will dedicate your content. <br/>
+3) class="sliderImage" will dedicate the image of your slide. You should give "data-image" as an attribute in this div for stating src of your image. 
 
 <h3>Initialize the slider in your script</h3>
 <h1>Script Code:<h1>
