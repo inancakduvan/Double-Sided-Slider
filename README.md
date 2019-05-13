@@ -22,14 +22,14 @@ No setup is required. Easy to create and use.
 <span><</span>div class="sliderHeading"> Heading 1 <span><</span>/div>
 <span><</span>div class="sliderContent"> 
   Here is the content of the text. You can give your information in this part.
-  Just write here whatevet you want. 
+  Just write here whatever you want. 
 <span><</span>/div>
 <span><</span>div class="sliderImage" data-image="yourImage.png"><span><</span>/div>
 
 <span><</span>/div></p>
 </pre>
 
-**Firstly, Create a Div with id of "double-sided-slider" wherever you want and inside it:
+**Firstly, create a Div with id of "double-sided-slider" wherever you want and inside it:
 
 ----> You should use 3 different classes when you create your slider: <br/>
 1) class="sliderHeading" will dedicate the heading of your content. <br/>
