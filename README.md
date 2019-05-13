@@ -22,7 +22,7 @@ No setup is required. Easy to create and use.
 <span><</span>div class="sliderHeading"> Heading 1 <span><</span>/div>
 <span><</span>div class="sliderContent"> 
   Here is the content of the text. You can give your information in this part.
-  Just write hear whatevet you want. 
+  Just write here whatevet you want. 
 <span><</span>/div>
 <span><</span>div class="sliderImage" data-image="yourImage.png"><span><</span>/div>
 
