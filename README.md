@@ -24,7 +24,7 @@ No setup is required. Easy to create and use.
   Here is the content of the text. You can give your information in this part.
   Just write hear whatevet you want. 
 <span><</span>/div>
-<span><</span>div class="sliderHeading" data-image="yourImage.png"><span><</span>/div>
+<span><</span>div class="sliderImage" data-image="yourImage.png"><span><</span>/div>
 
 <span><</span>/div></p>
 </pre>
